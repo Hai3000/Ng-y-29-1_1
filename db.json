@@ -1,0 +1,80 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100,
+      "isDeleted": false
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200,
+      "isDeleted": false
+    },
+    {
+      "id": "3",
+      "title": "haha",
+      "views": "3000",
+      "isDeleted": false
+    },
+    {
+      "id": "7",
+      "title": "kem10",
+      "views": "1000",
+      "isDeleted": false
+    },
+    {
+      "id": "6",
+      "title": "h50",
+      "views": "200",
+      "isDeleted": false
+    },
+    {
+      "id": "8",
+      "title": "nghiep",
+      "views": "700",
+      "isDeleted": false
+    },
+    {
+      "id": "15",
+      "title": "Mu",
+      "views": "99",
+      "isDeleted": false
+    },
+    {
+      "id": "4",
+      "title": "MC",
+      "views": "90",
+      "isDeleted": true
+    },
+    {
+      "id": "16",
+      "title": "áo dài",
+      "views": "3",
+      "isDeleted": false
+    },
+    {
+      "id": "17",
+      "title": "hiéungu",
+      "views": "6767",
+      "isDeleted": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
